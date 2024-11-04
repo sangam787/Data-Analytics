@@ -2,7 +2,7 @@
 """
 Answer-1
 Python is the one of the most popular programming language. 
-Below, its some key feature described why it is popular.
+Below, its some key feature described, why it is popular.
 
 1-Python is easiest programing language, it is very easy to read and understand. Its syntax are very simple similar like english words.
 2-Python has one of the largest collections of free libraries.
@@ -43,6 +43,40 @@ elif light == "yellow":
 
 
 #Question-3 Compare and contrast mutable and immutable objects in Python with examples.
+"""
+
+In Python, An object that can be modified is called a mutable object and this process is mutability. And the object that can not be modified is called immutable, this process is called immutability.
+Example of mutable objects:-
+(1) Lists :- We can add, remove, or modify elements within a list after it's created.
+
+my_list = [1, 2, 3]
+my_list.append(4)  # Now my_list is [1, 2, 3, 4]
+print(my_list)
+
+(2) Sets :- Elements can be added or removed from a set.
+setA = {1, 2, 3}
+setA.add(4)  # Now setA is {1, 2, 3, 4}
+print(setA)
+
+Example of immutable objects:-
+(1) Strings: Once a string is created, individual characters cannot be directly changed.
+strA = "Good"
+# strA[0] = "h"  # This will throw an error
+"""
+# (2) Tuples: Tuples are like lists but cannot be modified after creation. 
+tupA = (1, 2, 3)
+
+tupA[0] = 5  # This will raise an error
+
+
+
+
+
+
+
+
+
+
 #Question-4 Discuss the different types of operators in Python and provide examples of how they are used.
 #Question-5 Explain the concept of type casting in Python with examples.
 

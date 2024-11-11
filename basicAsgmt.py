@@ -108,7 +108,7 @@ example
 
 "Thus, there are more keywords which are used in Python."
 
-
+# ____________________________________________________________________________________________________________________________
 #Question-3 Compare and contrast mutable and immutable objects in Python with examples.
 """
 Answer:-3
@@ -161,9 +161,9 @@ For Example :-
 this operator is used for comparison of two values
 For Example :-
 """
-a = 5                
-b = 4               # In relational operators we get answer in boolean data tpye, that is 'True' or 'False'.
-print(a == b)       # similarly we can use others Relational Operators in place of "==" .
+# a = 5                
+# b = 4               # In relational operators we get answer in boolean data tpye, that is 'True' or 'False'.
+# print(a == b)       # similarly we can use others Relational Operators in place of "==" .
                   
 """
 (3):- Assignment Operators (=, +=, -=, /=, %=, **=)      
@@ -208,7 +208,7 @@ example
 # print(a is b)  # similarly we can use 'is not'
 
 
-
+# ___________________________________________________________________________________________________________________________
 #Question-5 Explain the concept of type casting in Python with examples.
 
 """
@@ -224,7 +224,7 @@ if we print(a + b) then it will throw an error. So for solution we convert the d
 # print(a + b)   # now we will find the answer.
 
 
-
+# _________________________________________________________________________________________________________________________________________
 #Question-6 How do conditional statements work in Python? Illustrate with examples.
 
 """
@@ -263,7 +263,7 @@ The most common conditional statements in Python are if , elif , and else . We u
 #   print("a is greater than b")
 
 
-
+# ____________________________________________________________________________________________________________________
 #Question-7 Describe the different types of loops in Python and their use cases with examples.
 
 """

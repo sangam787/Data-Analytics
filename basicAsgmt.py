@@ -23,8 +23,8 @@ Now we are going to describe the keywords and their roles with examples.
 (1)- and (A logical operator):- Return True if both statements are True:
 example-
 """ 
-x = (3 < 7 and 5 < 8)
-print(x)
+# x = (3 < 7 and 5 < 8)
+# print(x)
 
 
 "(2)- elif (Used in conditional statements, same as else if)"
